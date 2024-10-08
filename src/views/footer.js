@@ -1,4 +1,4 @@
-import logo from '../assets/logo.png'; // Assurez-vous que c'est le bon type de fichier
+import logo from '../assets/logo.png';
 
 export default () => (`
   <footer class="bg-gray-800">
