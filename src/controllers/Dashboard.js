@@ -14,9 +14,13 @@ const Dashboard = class Dashboard {
 
   async render() {
     return `
-      <div>
+    <div id="MainContent">
+  <div>
       ${viewNav()}
       </div>
+</div>
+
+      
       <div>
       ${viewCard()}
       </div>
