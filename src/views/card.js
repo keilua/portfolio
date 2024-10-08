@@ -1,7 +1,7 @@
 import keanuImage from '../assets/keanu.jpg';
 
 export default () => (`
-<article class="flex items-center space-x-4 p-4 bg-white shadow-lg rounded-lg">
+<article class="bg-gray-800 p-4 rounded-lg shadow-md text-center flex items-center space-x-4">
   <img
     alt="Keanu Richard"
     src="${keanuImage}"
@@ -9,9 +9,9 @@ export default () => (`
   />
 
   <div class="flex-1">
-    <h3 class="text-xl font-semibold text-gray-900">Keanu Reeves</h3>
-    <p class="mt-2 text-sm text-gray-600">
-      dev web
+    <h3 class="text-xl font-semibold text-white">Keanu Richard</h3>
+    <p class="mt-2 text-sm text-gray-300">
+      Je suis Keanu Richard, un étudiant en B2 à Coda, passionné par le développement Web. Actuellement à la recherche d'alternances pour ma B2, je crée des jeux en JavaScript. Découvrez mes projets sur GitHub et LinkedIn.
     </p>
 
     <div class="mt-4">
