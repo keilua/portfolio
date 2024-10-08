@@ -1,5 +1,7 @@
 import viewNav from '../views/nav';
 import viewFooter from '../views/footer';
+import viewCard from '../views/card';
+import viewSkills from '../views/skills';
 
 const Dashboard = class Dashboard {
   constructor(params) {
@@ -12,12 +14,18 @@ const Dashboard = class Dashboard {
 
   async render() {
     return `
-      <div class="row">
-        <div class="col-12">${viewNav()}</div>
+      <div>
+      ${viewNav()}
       </div>
-      <div class="row">
-                <div class="col-6">${viewFooter()}</div>
-              </div>
+      <div>
+      ${viewCard()}
+      </div>
+      <div>
+      ${viewSkills()}
+      </div>
+      <div>
+      ${viewFooter()}
+      </div>
 
     `;
   }
