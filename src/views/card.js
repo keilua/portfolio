@@ -15,13 +15,13 @@ export default () => (`
     </p>
 
     <div class="mt-4">
-      <a 
-        href="../assets/cv_keanu.pdf" 
-        download 
-        class="inline-block px-4 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition">
-        Télécharger CV
-      </a>
-    </div>
+  <a 
+    href="../assets/cv_keanu.pdf" 
+    download 
+    class="inline-block px-4 py-2 text-white bg-pink-600 rounded-lg hover:bg-pink-700 transition">
+    Télécharger CV
+  </a>
+</div>
   </div>
 </article>
 `);
